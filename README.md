@@ -87,10 +87,6 @@ mvn clean install
 
 4. **Run the application:**
 ```bash
-# For MySQL
-mvn spring-boot:run -Dspring-boot.run.profiles=mysql
-
-# For PostgreSQL (default)
 mvn spring-boot:run
 ```
 
